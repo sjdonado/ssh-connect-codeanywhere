@@ -2,7 +2,7 @@
 Script and process to connect successfully with codeanywhere ssh
 ### In your terminal
 * Type in `ssh-keygen` and you will create your public key
-* Type `cat ~/.ssh/id_rsa.pub` and copy your entire key
+* Type `cat ~/.ssh/id_rsa` and copy your entire key
 ### In codeanywhere terminal:
 Type: 
 ```sh
