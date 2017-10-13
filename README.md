@@ -5,11 +5,11 @@ Script and process to connect successfully with codeanywhere ssh
 * Type `cat ~/.ssh/id_rsa` and copy your entire key
 ### In codeanywhere terminal:
 Type: 
-```sh
+```bash
 $ vim authorized_keys
 ```
 Type "A" or "I" paste your key in new line and Save (by pressing [CTR + C], and entering :wq)
-```sh
+```bash
 $ sudo nano /etc/ssh/sshd_config
 ```
 Modify same as this
@@ -20,18 +20,18 @@ PasswordAuthentication yes
 #PasswordAuthentication no
 ```
 After, changue the UNIX password
-```sh
+```bash
 $ sudo su
 # passwd cabox
 ```
 ### Run install script
-```sh
+```bash
 $ git clone https://github.com/sjdonado/Ssh-connect-codeanywhere.git
 $ cd Ssh-connect-codeanywhere
 $ sh install.sh
 ```
 ### Connect to codeanywhere
 Locate SSH port number in Container's Info, and type:
-```sh
+```bash
 $ codeanywhere
 ```
