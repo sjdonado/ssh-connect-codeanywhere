@@ -1,9 +1,9 @@
 # Ssh-connect-codeanywhere
 Script and process to connect successfully with codeanywhere ssh
-### In your terminal
+### Type in your terminal
 * Type in `ssh-keygen` and you will create your public key
 * Type `cat ~/.ssh/id_rsa` and copy your entire key
-### In codeanywhere terminal:
+### Type in codeanywhere terminal:
 Type: 
 ```bash
 $ vim authorized_keys
@@ -19,7 +19,7 @@ PasswordAuthentication yes
 #PermitEmptyPasswords yes
 #PasswordAuthentication no
 ```
-After, changue the UNIX password
+After, change the UNIX password
 ```bash
 $ sudo su
 # passwd cabox
